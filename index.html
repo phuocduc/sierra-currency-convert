@@ -30,6 +30,9 @@
           <option value="USD">USD</option>
           <option value="EUR">EUR</option>
         </select>
+        <div>
+          <img class="img_exchange" src="/img/arrow.png" alt="">
+        </div>
         <select id="to" class="select_to">
           <option value="USD">USD</option>
           <option value="VND">VND</option>
@@ -37,9 +40,9 @@
         </select>
       </div>
 
-      <button onclick="convertAmountRate()">Convert</button>
+      <button class="button-convert" onclick="convertAmountRate()">Convert</button>
       <h3>The Amount you will received:</h3>
-      <div id="show"></div>
+      <div id="show" class="show"></div>
     </div>
 
     <!-- Optional JavaScript -->
