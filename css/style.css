@@ -32,7 +32,9 @@ body{
 .input-boxed{
     border:2px solid blue;
     border-radius: 55px;
-    width: 372px;
+    width: 100%;
+    max-width: 372px;
+    
     height: 54px;
     display: flex;
     justify-content: center;
@@ -46,6 +48,7 @@ body{
     font-size:25pt;
     border:1px solid white;
     outline: none;
+    display: none;
 }
 
 .img_exchange{
