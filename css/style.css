@@ -42,13 +42,13 @@ body{
 }
 
 .input-boxed input{
-    width: 325px;
+    width: 100%;
+    max-width: 325px;
     height: 49px;
     color:#6A5C61;
     font-size:25pt;
     border:1px solid white;
     outline: none;
-    display: none;
 }
 
 .img_exchange{
